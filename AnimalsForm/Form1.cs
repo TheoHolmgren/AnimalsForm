@@ -20,6 +20,8 @@ namespace AnimalsForm
         {
             InitializeComponent();
 
+            Console.SetConsole(richTextBox1);
+
             Animal.SetYear(2019); // Så här anropar man en klassmetod, 
                                   // dvs en statisk metod. 
                                   // Hur ska koden för setYear se ut? 
